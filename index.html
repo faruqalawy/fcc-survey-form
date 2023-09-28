@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survei Mahasiswa Prodi Perbandingan Madzhab</title>
+    <link href="styles.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <h1 id="title">Survei Prodi Perbandingan Madzhab</h1>
+    <p id="description">Selamat mengisi, diharapkan mengisi sampai selesai.</p>
+     <form id="survey-form" class="survei" method="post" action="">
+      <label for="name" id="name-label">Nama <input type="text" placeholder="Ketik nama anda..." id="name" required /></label>
+      <label for="email" id="email-label">Email <input type="email" placeholder="Ketik email anda..." id="email" Required /></label>
+      <label for="number" id="number-label">Usia <input id="number" placeholder="Usia" type="number" min="18" max="65" /></label>
+      <label for="dropdown">Apa status anda sekarang?
+        <select id="dropdown" name="dropdown">
+          <option value="">Pilih status anda</option>
+          <option value="st 1">Mahasiswa tingkat 1</option>
+          <option value="st 2">Mahasiswa tingkat 2</option>
+          <option value="st 3">Mahasiswa tingkat 3</option>
+          <option value="st 4">Mahasiswa tingkat 4</option>
+          <option value="st 5">Mahasiswa tingkat 5</option>
+          <option value="st 6">Mahasiswa tingkat 6</option>
+          <option value="st 7">Mahasiswa tingkat 7</option>
+        </select>
+      </label>
+      <label id="rekomendasi">Apakah anda akan merekomendasikan prodi Perbandingan Madzhab ke orang yang anda kenal?</label>
+      <label for="rekomendasi 1"><input value="rek 1" id="rekomendasi 1" type="radio" name="account-type" class="inline" />Tentu saja</label>
+      <label id="rekomendasi 2"><input value="rek 2" id="rekomendasi 2" type="radio" name="account-type" class="inline" />Mungkin saja</label>
+      <label id="rekomendasi 3"><input value="rek 3" id="rekomendasi 3" type="radio" name="account-type" class="inline" />Tidak yakin</label>
+      <label id="cekbox">Apa yang harus ditingkatkan dari prodi Perbandingan Madzhab?</label>
+      <label for="cekbox 1"><input value="cb 1" id="cekbox 1" type="checkbox" class="inline" /> Kurikulum</label>
+      <label id="cekbox 2"><input value="cb 2" id="cekbox 2" type="checkbox" class="inline" /> Ruang Perkuliahan</label>
+      <label id="cekbox 3"><input value="cb 3" id="cekbox 3" type="checkbox" class="inline" /> Metode Pembelajaran</label>
+      <label id="cekbox 4"><input value="cb 4" id="cekbox 4" type="checkbox" class="inline" /> Pembayaran UKT</label>
+      <label id="cekbox 5"><input value="cb 5" id="cekbox 5" type="checkbox" class="inline" /> Layanan Tata Usaha</label>
+      <label id="cekbox 6"><input value="cb 6" id="cekbox 6" type="checkbox" class="inline" /> Sistem pengerjaan tugas akhir</label>
+      <label for="saran">Ada kritik atau saran lain?<textarea id="saran" type="textarea" placeholder="ketik disini..." rows="3" cols="30" /></textarea></label>
+      <label><input id="submit" type="submit" value="Kirim" </label>
+     </form>
+  </body>

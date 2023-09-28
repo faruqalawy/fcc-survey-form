@@ -1,0 +1,30 @@
+body {font-family: Tahoma;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(https://mediacdn.quipper.com/media/W1siZiIsIjIwMTgvMDEvMjMvMDkvMzAvMDUvM2YwN2ZlNDUtZjE5YS00ODFkLTg3NzQtZjdlOGM3ZjdiYjgwLyJdLFsicCIsInRodW1iIiwiMTIwMHhcdTAwM2UiLHt9XSxbInAiLCJjb252ZXJ0IiwiLWNvbG9yc3BhY2Ugc1JHQiAtc3RyaXAiLHsiZm9ybWF0IjoianBnIn1dXQ?sha=a0ad9ca13fc9287e);
+    color: 
+}
+h1,p {text-align: center;}
+.survey-form {
+margin-bottom: 20px;
+}
+label {
+display: block;
+margin: 1em;
+}
+input, select, textarea {
+width: 100%
+}
+.inline {
+width: unset;
+vertical-align: middle;
+}
+.survei {width: 80%;
+background-color: #cfe3e2; 
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+max-width: 500px;
+opacity: 95%
+}
